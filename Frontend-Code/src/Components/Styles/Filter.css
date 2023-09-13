@@ -1,0 +1,176 @@
+nav {
+  background-color: #ce0505;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  width: 52px;
+  height: 52px;
+  padding: 1px 10px 4px;
+  background-color: #fff;
+  font-size: 33px;
+  color: #ce0505 !important;
+  text-align: center;
+  font-weight: 600;
+  font-family: "poppins";
+  border-radius: 50%;
+  margin-top: 15px;
+  transition-duration: 1s;
+}
+.logo:hover {
+  cursor: pointer !important;
+  background: #ce0505 !important;
+  color: #fff !important;
+}
+.login {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  border: none;
+  background-color: transparent;
+  padding: 12px 14px 11px 15px;
+  margin-top: 5px;
+  transition-duration: 1s;
+}
+.logout{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  border: none;
+  background-color: transparent;
+  padding: 12px 14px 11px 15px;
+  margin-top: 5px;
+  transition-duration: 1s;
+}
+.signup {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  border: 1px solid #fff;
+  padding: 12px 14px 11px 15px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  transition-duration: 1s;
+}
+.toggle-div {
+  visibility: hidden;
+  margin-top: 10px;
+  float: right;
+}
+.drop-down {
+  width: 100%;
+  height: 4rem;
+  margin-top: 1rem;
+  font-size: 12px;
+}
+.checkbox {
+  font-size: 14px;
+  color: #8c96ab;
+}
+.radio {
+  font-size: 14px;
+  color: #8c96ab;
+}
+.restaurant-box{
+  position: relative;
+  z-index: -1;
+  background-color: #fff;
+}
+.page {
+  justify-content: center;
+}
+.page-list {
+  margin-right: 10px;
+}
+.page-numbers {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 900px) {
+  div.right {
+    width: 230px;
+  }
+
+  div.toggle-div {
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 768px) {
+  button.signup{
+    display: none;
+  }
+  button.login{
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 50px
+  }
+}
+@media screen and (max-width: 425px) {
+  div.restaurant-box {
+    border-radius: 30px;
+  }
+  li {
+    font-size: 15px;
+  }
+  img.filter-image {
+    width: 100%;
+    height: 200px;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+    margin: 0 !important;
+  }
+  div.res-details {
+    margin-left: 3rem !important;
+  }
+  h4.h4-tag {
+    font-size: 13px;
+  }
+  button.login {
+    font-size: 14px;
+  }
+  button.signup {
+    font-size: 13px;
+  }
+  a.page-numbers {
+    font-size: 12px;
+  }
+  button.logout{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 325px) {
+  h4.h4-tag {
+    font-size: 11px;
+  }
+}

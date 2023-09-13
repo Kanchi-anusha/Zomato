@@ -1,0 +1,162 @@
+.container-login {
+  width: 380px;
+  justify-content: center;
+  align-items: center;
+}
+.login-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 18px;
+  border: none !important;
+  background: transparent !important;
+}
+.wrap-login {
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+.login-form {
+  width: 100%;
+}
+.signin-with {
+  font-size: 32px;
+  color: #192f60;
+  font-family: "poppins";
+  text-align: center;
+  padding-bottom: 30px;
+  word-wrap: nowrap;
+  width: 100%;
+  display: block;
+  height: 60px;
+}
+.btn-face {
+  background: #3b5998;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  border: none;
+  width: 100%;
+}
+.btn-face i {
+  font-size: 30px;
+  margin-right: 17px;
+  padding-bottom: 3px;
+}
+.google-auth-button {
+  font-size: 18px;
+  line-height: 1.2;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  color: #192f60;
+  background-color: #fff;
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 20%);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  transition: all 2s;
+  width: 100%;
+}
+
+.google-auth-button img {
+  width: 30px;
+  margin-right: 15px;
+  padding-bottom: 3px;
+}
+.validate-input {
+  position: relative;
+}
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.input100 {
+  font-family: "poppins";
+  color: #192f60;
+  line-height: 1.2;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  background: 0 0;
+  height: 60px;
+  padding: 0 20px;
+  border: none;
+}
+.login-submit {
+  background-color: orange;
+  font-size: 16px !important;
+  font-family: "poppins";
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  height: 60px;
+  width: 100%;
+  padding: 0 20px;
+}
+.btn-google:hover,
+.btn-face:hover,
+.login-submit:hover,
+.google-auth-button:hover {
+  background: linear-gradient(45deg, #00dbde, #fc00ff);
+  text-decoration: none;
+}
+.cart-icon {
+  font-size: 24px;
+  color: #fff;  
+}
+.cart-badge{
+  font-size: 14px;
+  border-radius: 50%;
+  position: relative;
+}
+.firstletter-logo{
+  width: 42px;
+  height: 42px;
+  padding: 1px 15px 4px;
+  background-color: purple;
+  font-size: 28px;
+  color: #fff !important;
+  text-align: center;
+  font-weight: normal;
+  font-family: "poppins";
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 10px;
+  transition-duration: 1s;
+}
+@media screen and (max-width: 768px){
+  span.cart-badge{
+    margin-right: 10px;
+  }
+  img.User-avatar{
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  span.firstletter-logo{
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
+  div.container-login {
+    width: 250px;
+  }
+  div.wrap-login {
+    padding: 0px;
+    width: 250px;
+  }
+}

@@ -1,0 +1,277 @@
+* {
+  font-family: "poppins";
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fbfbfb;
+}
+
+.background {
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"), linear-gradient(to bottom, rgb(200,200,200), rgb(200, 200, 200));
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+}
+
+.homelogo {
+  width: 9rem;
+  height: 9rem;
+  padding: 15px 25px 16px 24px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 42px;
+  color: red;
+  position: relative;
+  top: 17%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+header {
+  color: white;
+  font-size: 34px;
+  text-align: center;
+  position: relative;
+  top: 20%;
+  text-align: center;
+  font-weight: normal;
+}
+.dropdown-block{
+  position: relative;
+  top: 22%; 
+  text-align: center;
+}
+.home-dropdown {
+  height: 55px;
+  width: 257px;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #8c96ab;
+  padding-left: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;  
+}
+
+.input-box {
+  font-size: 14px;
+  padding-left: 35px;
+  width: 487px;
+  height: 55px;
+  color: #8c96ab;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  margin-left: -14px;
+}
+
+.search {
+  left: 10px;
+  color: #8c96ab;
+  font-size: 14px;
+}
+
+::placeholder {
+  text-align: left;
+  font-size: 14px;
+  color: #8c96ab;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+.search-result-restaurant-block{
+  background-color: #fff;
+  text-align: left;
+  cursor: pointer;
+}
+.search-result-image-block{
+  display: inline-block;
+  margin: 10px 0 10px 20px;
+}
+.search-result-restaurant-details{
+  display: inline-block;
+  vertical-align: top; 
+  margin: 10px 0 10px 20px;
+}
+.search-result-restaurant-name{
+  color: #192f60;
+  font-size: 16px;
+  font-weight: bold;
+}
+.search-result-restaurant-address{
+  color: #636f88;
+  font-size: 12px;
+  font-weight: normal; 
+  width: 300px;
+}
+.no-result-block{
+  background-color: #fff;
+  text-align: left;
+  height: 50px;
+  padding: 10px;
+}
+.no-result-message{
+  color: #192f60;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Quick {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  margin-top: 30px;
+}
+
+.discover {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+
+.rectangle {
+  width: 100%;
+  margin-bottom: 100px;
+  margin-right: 20px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+}
+
+.breakfast {
+  margin: 25px 49px 4px 29px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  color: #192f60;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.definition {
+  width: 137px;
+  margin: 4px 0 54px 29px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+
+.Bengaluru {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #636f88;
+}
+.home-img{
+    position: relative;
+    z-index: -1;
+    border-radius: 10px;   
+}
+.mealtype-image:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.mealtype-heading{
+  color: #192f60;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  z-index: -1;
+}
+.mealtype-content{
+  color: #636f88;
+  font-size: 14px;
+  margin-bottom: 100px;
+  position: relative;
+  z-index: -1;
+}
+/* This is a media query for small screen responsive */
+
+@media screen and (max-width: 768px) {
+  input.input-box {
+    margin-top: 5px;
+    margin-left: -15px;
+    width: 500px;
+    border-radius: 10px;
+  }
+  select.home-dropdown {
+    width: 500px;
+    border-radius: 10px;
+  }
+  span.search {
+    left: 10px;
+  }
+  div.background{
+    height: 550px;
+  }
+}
+@media screen and (max-width: 500px) {
+  input.input-box {
+    width: 400px;
+  }
+  select.home-dropdown {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 425px) {
+  img.home-img {
+    width: 100%;
+  }
+  div.rectangle {
+    width: 100%;
+    border-radius: 20px;
+  }
+  div.definition {
+    width: 200px;
+  }
+  header {
+    height: 75px;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  div.homelogo {
+    height: 90px;
+    width: 90px;
+    font-size: 42px;
+    padding: 15px 25px 16px 24px;
+    margin-bottom: 20px;
+  }
+  input.input-box {
+    margin-left: -15px;
+    margin-top: 10px;
+    width: 300px;
+  }
+  select.home-dropdown {
+    width: 300px;
+  }
+}
